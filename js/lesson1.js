@@ -10,21 +10,21 @@
 //   console.log(b);
 //   b = 10;
 // }
-
+// v: 20
 // ----------------------------------
 
 // Який результат буде виведено в консоль?
-// console.log(typeof typeof 1);
-
+//console.log(typeof typeof 1);
+//v: string
 // ----------------------------------
 
 // Що відобразиться в консолі:
 // console.log(Number(undefined));
-
+//v: NaN
 // -----------------------------------
 
-// console.log("10" - 8 + true);
-// console.log(5 + 5 + "5");
+//console.log("10" - 8 + true); //3
+//console.log(5 + 5 + "5"); //105
 
 // ---------------------------------
 
@@ -212,12 +212,39 @@
 //Якщо введен пароль "Я головний",
 //то вивести рядок "Вітаю!"
 //в іншому випадку виводити рядок "Невірний пароль!"
+// const logins = "Admin";
+// const ADMIN_PASSWORD = "i'm the boss";
+// const login = prompt("Enter your login");
+// console.log(login);
+// if (login === logins) {
+//     const password = promt("Enter password");
+// } else if (login === "" || Esc) {
+//     alert("Cancelled");
+// } else (alert("I do not know you"));
+
+// if (password === ADMIN_PASSWORD) {
+//     alert("Hello!");
+// } else (alert("Invalid password"));
+
 
 // ====================2=====================
 
 //Якщо число ділитися на 3 повертати
 //fizz якщо ділитися на 5 повертати buzz
 //Якщо ділитися на 3 і на 5 повернути fizzbuzz
+
+// const number = a;
+// let a = 3;
+// if (a % 3) {
+//     console.log("fizz");
+// } else if (a % 5) {
+//     console.log("buzz");
+// } else if (a % 3 && a % 5) {
+//     console.log("fizzbuzz");
+//     }
+
+    
+
 
 // ==========================3======================
 //Напишіть функції для роботи з масивом
@@ -226,3 +253,9 @@
 //update(oldName, newName) змінює ім'я на нове
 
 // const names = ["Alla", "Petro", "Max", "Olena", "Boris"];
+// function add(name);
+// function remove(name);
+// function update(oldName, newName);
+
+
+
